@@ -1,0 +1,16 @@
+KICoDi is a collective effort of members of many institutions:
+- Ignacio Arroyo Fernández <sup>[1](#UTM)</sup>
+- José Armando Sánchez Rojas <sup>[1](#UTM)</sup>
+- Arturo Tellez Velpazquez <sup>[1](#UTM)</sup>
+- Flavio Juárez Martínez <sup>[1](#UTM)</sup>
+- Raúl Cruz Barbosa <sup>[1](#UTM)</sup>
+- Enrique Guzmán Ramírez <sup>[1](#UTM)</sup>
+- Yalbi Itzel Balderas Martínez <sup>[2](#INER)</sup>
+- Enrique Galicia Pineda <sup>[3](#FCien)</sup>
+
+
+<a name="UTM">1</a>: Universidad Tecnológica de la Mixteca
+
+<a name="INER">2</a>: Instituto Nacional de Enfermedades Respiratorias "Ismael Cosío Villegas"
+
+<a name="FCien">3</a>: Facultad de Ciencias, UNAM

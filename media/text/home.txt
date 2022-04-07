@@ -1,0 +1,20 @@
+KICoDi is a self-attention based Neural Language Model trained with different Knowledge Bases. The main application of KICoDi is focused on supporting biomedical research related to the study of
+nonCommunicable Diseases.
+
+The goal of trained NLM is infer parts of semantic structures. The NLM learns from training samples of the form `subject-predicted, object` tuples. 
+
+KICoDI is a Transformer-Based NLM trained with different Knowledge Bases builded from combinations of Information-Extractions Methods and a dataset of scientific paper abstracts related to
+nine different nonCommunicable Disease domains:
+- Breast Cancer
+- Lung Cancer
+- Prostate Cancer
+- Colorectal Cancer
+- Gastric Cancer
+- Cardiovascular Disease
+- Chronic Respiratory Diseases
+- Type 1 Diabetes Mellitus
+- Type 2 Diabetes Mellitus
+
+You can check the models and what is KICoDi checking:
+- [KICoDi 1.0](https://github.com/iarroyof/open-ncd-kbc) (GitHub repository)
+- [Common Sense Knowledge Learning for Open Vocabulary Neural Reasoning: A First View into Chronic Disease Literature](https://arxiv.org/abs/2111.13781) (arXiv preprint)
