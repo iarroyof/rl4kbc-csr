@@ -1,14 +1,18 @@
 import streamlit as st
 import time
 import pandas as pd
+# semantic role labeling classification
 from src.srl_methods.classification import extract
+# predictor
 from src.transformer_predictor import predictor
+# Text to show 
 file1=open('media/text/home.txt')
 file2=open('media/text/tools.txt')
 file3=open('media/text/authors.txt')
 home=file1.read()
 tools=file2.read()
 authors=file3.read()
+# Examples to make predictions
 sentences=pd.read_csv('io/input/inputs.csv',header=0)
 
 ######################################################
