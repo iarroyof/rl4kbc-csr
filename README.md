@@ -52,10 +52,8 @@
         <p>Nevertheless the data to train the model and export the info to make the predictions is not available in this repository. Please refer to PhD I. Arroyo in order to get the data.
         </p>
         <h4>- AllenNLP</h4>
-        <p>AllenNLP is a library provided from the Allen Institute for Artificial Intelligence and we needed for <highl>(Subject_Predicate, Object)</highl> tuple creation task. This version of KICoDi uses 2.2.0 version and 2.2.0 models. You need to know that AllenNLP libraries need PyTorch. Please follow the steps to install correctly AllenNLP libraries:
+        <p>AllenNLP is a library provided from the Allen Institute for Artificial Intelligence and we needed for <highl>(Subject_Predicate, Object)</highl> tuple creation task. This version of KICoDi uses 2.2.0 version and 2.2.0 models. You need to know that AllenNLP libraries need PyTorch. The installation of AllenNLP and PyTorch libraries was done when the environment was created using <highl>env.yml</highl>.
         <ol>
-            <li>Install AllenNLP via pip: <code>pip install allennlp==2.2.0 allennlp-models==2.2.0</code></li>
-            <p>AllenNLP library will install the pytorch libraries needed to work. Again we recommend run KICoDi in a specific environment created for the app.</p>
             <li>You can check the installation executing:</li>
         </ol>
             <code>
