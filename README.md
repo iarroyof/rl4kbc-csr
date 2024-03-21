@@ -14,18 +14,18 @@
     font-size: 106%;
     }
     </style>
-    <h1>KICoDi</h1>
+    <h1>RL4KBC&CSR</h1>
     <h2>Knowledge Inference for nonCommunicable Diseases</h2>
     <img src="media/logo.png" width=400 alt="logo">
     <h3>Please read this guide before try to run the application.</h3>
     <p>
-    This repository contains almost all the necessary stuff to run your own copy of KICoDi.
+    This repository contains almost all the necessary stuff to run your own copy of RL4KBC&CSR.
     </p>
     <div>
         <h3>Installing Conda</h3>
-        <p>KICoDi works with different libraries in specific versions, so we strongly recommend create an environment dedicated to KICoDi. A good option is install <a href="https://www.anaconda.com/products/distribution" target="_blank">Conda</a> (or MiniConda) a powerful tool with some IDE's and a easy manage of <a href="https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf" target="_blank">environments</a>. 
+        <p>RL4KBC&CSR works with different libraries in specific versions, so we strongly recommend create an environment dedicated to RL4KBC&CSR. A good option is install <a href="https://www.anaconda.com/products/distribution" target="_blank">Conda</a> (or MiniConda) a powerful tool with some IDE's and a easy manage of <a href="https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf" target="_blank">environments</a>. 
         </p>
-        <p>Once you have installed Conda, you must <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">create an environment</a> from <highl>env.yml</highl> With this step you will have all necessary libraries needed to run KICoDi. Open your terminal in KICoDi directory and type:
+        <p>Once you have installed Conda, you must <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">create an environment</a> from <highl>env.yml</highl> With this step you will have all necessary libraries needed to run RL4KBC&CSR. Open your terminal in RL4KBC&CSR directory and type:
         </p>
         <code>conda env create -f env.yml</code>
         <p>
@@ -38,7 +38,7 @@
     <div>
         <h3>Getting Started</h3>
         <h4>- Streamlit</h4>
-        <p>KICoDi is an <a href="https://docs.streamlit.io/library/get-started" target="_blank">Streamlit</a> based application. The <highl>.streamlit</highl> directory contains <highl>.toml</highl> file used to customize the background color, fonts, text color and more. With Streamlit, we manage three sections of the application in <highl>main.py</highl>via sidebar settings: 'Home', 'Inference' and 'Authors'. If you want to change the information showed in these pages, you must go to <highl>media/text</highl> and modify .txt files. Streamlit supports markdown and html as markup languages. </p>
+        <p>RL4KBC&CSR is an <a href="https://docs.streamlit.io/library/get-started" target="_blank">Streamlit</a> based application. The <highl>.streamlit</highl> directory contains <highl>.toml</highl> file used to customize the background color, fonts, text color and more. With Streamlit, we manage three sections of the application in <highl>main.py</highl>via sidebar settings: 'Home', 'Inference' and 'Authors'. If you want to change the information showed in these pages, you must go to <highl>media/text</highl> and modify .txt files. Streamlit supports markdown and html as markup languages. </p>
         <h4>- Main</h4>
         <p><highl>main.py</highl> is script you need to execute in order to run the application. It calls two scripts located in <highl>src/</highl> that perform the predictions tasks.
         </p>
@@ -52,7 +52,7 @@
         <p>Nevertheless the data to train the model and export the info to make the predictions is not available in this repository. Please refer to PhD I. Arroyo in order to get the data.
         </p>
         <h4>- AllenNLP</h4>
-        <p>AllenNLP is a library provided from the Allen Institute for Artificial Intelligence and we needed for <highl>(Subject_Predicate, Object)</highl> tuple creation task. This version of KICoDi uses 2.2.0 version and 2.2.0 models. You need to know that AllenNLP libraries need PyTorch. The installation of AllenNLP and PyTorch libraries was done when the environment was created using <highl>env.yml</highl>.
+        <p>AllenNLP is a library provided from the Allen Institute for Artificial Intelligence and we needed for <highl>(Subject_Predicate, Object)</highl> tuple creation task. This version of RL4KBC&CSR uses 2.2.0 version and 2.2.0 models. You need to know that AllenNLP libraries need PyTorch. The installation of AllenNLP and PyTorch libraries was done when the environment was created using <highl>env.yml</highl>.
         <ol>
             <li>You can check the installation executing:</li>
         </ol>
@@ -62,10 +62,10 @@
         </p>
     </div>
     <div>
-    <h3>Changes in KICoDi</h3>
-    <p>If you modify, uses another libraries or improve KICoDi please share your environment using <code>conda env export > environment.yml</code>. This is important to run and get a control over KICoDi versions.</p>
-    <h4>KICoDi has a trained image in DockerHub!!</h4>
-    <p>If you want to get access to a trained and fully functional version of KICoDi you need to install <a href="https://docs.docker.com/get-started/overview/" target="_blank">Docker</a></p>
+    <h3>Changes in RL4KBC&CSR</h3>
+    <p>If you modify, uses another libraries or improve RL4KBC&CSR please share your environment using <code>conda env export > environment.yml</code>. This is important to run and get a control over RL4KBC&CSR versions.</p>
+    <h4>RL4KBC&CSR has a trained image in DockerHub!!</h4>
+    <p>If you want to get access to a trained and fully functional version of RL4KBC&CSR you need to install <a href="https://docs.docker.com/get-started/overview/" target="_blank">Docker</a></p>
     <p>Docker provides the ability to package and run an application in a loosely isolated and Docker Hub is a
     library and community for container images.</p>
     <p>We recommend to use Docker in Linux and install with (Debian and Ubuntu)</p>
@@ -75,7 +75,7 @@
     <code>
     sudo docker run hello-world
     </code>
-    <p>One you installed Docker, you can download and use the KICoDi image via DockerHub</p>
+    <p>One you installed Docker, you can download and use the RL4KBC&CSR image via DockerHub</p>
     <code>
     sudo docker pull enriquegap/kapp:v01
     </code>
@@ -86,10 +86,10 @@
     <p>Now, you can open your favorite browser and view the app in <highl>http://172.17.0.2:8501</highl> The 8501 is the default port to run the application.</p>
     <p>To get a list of the Docker images in your PC type:</p>
     <code>sudo docker images</code>
-    <p>If you want to deploy your own KICoDi images or a Streamlit app with Docker, the next guide will be very useful:</p>
+    <p>If you want to deploy your own RL4KBC&CSR images or a Streamlit app with Docker, the next guide will be very useful:</p>
     <ol>
         <li>You need the trained version to have a correct functioning of the predictor.</li>
-        <li>The Dockerfile provided contains all the specifications to build your own image of KICoDi, follows</li>
+        <li>The Dockerfile provided contains all the specifications to build your own image of RL4KBC&CSR, follows</li>
         <ul>
             <li>3.8-slim-buster python version</li>
             <li>A list of requirements needed to run the app</li>
@@ -103,7 +103,7 @@
         <code>python -m pipreqs.pipreqs .</code>
         <p>Please note we don't install AllenNLP with <code>pip install -r requirements.txt</code>, so when you create your <highl>requirements.txt</highl> be sure to delete Allen's lines.</p>
         <li>The <highl>requirements.txt</highl> file in this repository contains all the neccesary libraries to create an image of the current version 1.0</li>
-        <li>Now you can build your image typing in KICoDi directory:</li>
+        <li>Now you can build your image typing in RL4KBC&CSR directory:</li>
         <code>docker build -t [name-of-my-app]:latest .</code>
     </ol>
     <p>Problems with Docker and images? Please refer to E. Galicia</p>
